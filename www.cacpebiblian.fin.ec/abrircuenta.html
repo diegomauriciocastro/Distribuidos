@@ -1,0 +1,928 @@
+<html class="no-js">
+
+    
+<!-- Mirrored from www.cacpebiblian.fin.ec/abrircuenta.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2020 23:06:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/sl-slide.css">
+
+        <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/social.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="js/validar.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="js/funciones.js"></script>
+        <script type="text/javascript" src="lib/Gruntfile/Gruntfile.js"></script>
+        <script type="text/javascript" src="lib/Gruntfile/js/easy-loading.min.js"></script>
+        <link rel="stylesheet" href="lib/Gruntfile/css/easy-loading.min.css">
+        <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="images/ico/icon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.html">
+        <link rel="stylesheet" href="css/img-efect.css">
+        <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="css/progress-bar.css">
+        <script src="../unpkg.com/sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+        <!--carousel-->
+        <script src="js/jssor.slider-26.1.5.min.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function(){
+                //===========FUNCION PARA PONER EL PIE DE PAGINA=============//
+                $("#pie").after('<!--Bottom--><section id="bottom" class="main"><!--Container--><div class="container"><!--row-fluids--><div class="row-fluid"><!--Contact Form--><div class="span7"><h4>UBIQUENOS</h4><ul class="unstyled address"><li><i class="icon-home"></i><strong>Dirección:</strong> Mariscal Sucre 3-38 y Daniel Muñoz<br></li><li><i class="icon-envelope"></i><strong>Email: </strong> info@cbcooperativa.fin.ec</li><li><i class="icon-phone"></i><strong>Teléfono:</strong> 072230836</li></ul></div><!--End Contact Form--><!--Important Links--><div id="tweets" class="span5"><h4>&nbsp;NOSOTROS</h4><div class="span3"><ul class="arrow"><li><a href="reconocimientos.html">Información</a></li><li><a href="sucursales.html">Contactos</a></li><li><a href="mensual.html">Transparencia</a></li></ul></div><div class="span6"><ul class="arrow"><li><a href="creditos.html#pricing-table">Productos y Servicios</a></li><li><a href="solitudCredito.html">Solicite su Crédito</a></li></ul></div></div><!--Important Links--></div><!--/row-fluid--></div><!--/container--></section><!--/bottom--><!--Footer--><footer id="footer"><div class="container"><div class="row-fluid"><div class="span5 cp">&copy; 2017 <a target="_blank" href="#" title="Free Twitter Bootstrap WordPress Themes and HTML templates">CB COOPERATIVA </a>. All Rights Reserved.</div><!--/Copyright--><div class="span6"><ul class="social pull-right"><li><a href="#"><i class="icon-facebook"></i></a></li><li><a href="#"><i class="icon-twitter"></i></a></li><li><a href="#"><i class="icon-youtube"></i></a></li><li><a href="#"><i class="icon-instagram"></i></a></li></ul></div><div class="span1"><a id="gototop" class="gototop pull-right" href="#"><i class="icon-angle-up"></i></a></div><!--/Goto Top--></div></div></footer><!--/Footer-->');              
+            });
+        </script>
+
+   
+     <style>    
+        .whatsapp {
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:87px;
+            right:25px;
+            background-color:#25d366;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+            font-size:30px;
+            z-index:100;
+        }
+
+        .whatsapp-icon {
+          margin-top:15px;
+        }
+        
+    </style>        
+   
+    </head>
+
+    <body oncontextmenu="return false" onload="active();redirigirNot();" style="background-color:rgb(255,255,255)">
+
+        <!--Header-->
+        <header class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a id="logo" class="pull-left" href="index.html"></a>
+                    <div class="nav-collapse collapse pull-right">
+                        <ul class="nav">
+                            <li id="liIndex"><a href="index.html">Inicio</a></li>
+                            <li class="dropdown" id="liNos">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nosotros <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liMV"><a href="misionvision.html">Misión y Visión</a></li>
+                                    <li id="liRH"><a href="reconocimientos.html">Reseña Histórica</a></li>
+                                    <li id="liNot"><a href="noticias.html">Noticias</a></li>
+                                </ul>
+                            </li>
+                            <li id="liPS" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos y Servicios <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liCred" ><a href="creditos.html#pricing-table">Créditos</a></li>
+                                    <li id="liPA" ><a href="planesAhorro.html#pricing-table">Planes de Ahorro</a></li>
+                                </ul>
+                            </li>
+
+                            <li id="liCont" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contactos <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liDS"><a href="sucursales.html">Directorio de Sucursales</a></li>
+                                    <li id="liDCA"><a href="cajeros.html">Directorio de Cajeros Automáticos</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li id="liSim" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Simuladores <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liCalCred"><a href="calcCredit.html">Calcule su Crédito</a></li>
+                                    <li id="liCalAho"><a href="calAhorro.html">Calcule su Ahorro</a></li>
+                                </ul>
+                            </li>
+
+                            <li id="liSerOnl" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios Online <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liSolCred"><a href="solitudCredito.html">Solicite su Crédito</a></li>
+                                    <li id="liAbCuAq"><a href="abrircuenta.html">Abra su Cuenta Aquí</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li id="liTransp" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transparencia <i class="icon-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li id="liInfMens"><a href="mensual.html">Informacion Mensual</a></li>
+                                    <li id="liInfTrim"><a href="trimestral.html">Informacion Trimestral</a></li>
+                                    <li id="liInfTrim"><a href="anual.html">Informacion Anual</a></li>                                    
+                                    <li id="liCosFin"><a href="costos.html">Costos Financieros</a></li>
+                                    <li id="liCalifi"><a href="calificacion.html">Calificacion</a></li>
+                                    <li><a href="resolucion.html">Resolución SEPS-IGT...0320</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="login">
+                                <a data-toggle="modal" href="#loginForm"><i class="icon-lock"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+
+
+        </header>
+        <!-- /header -->
+        <!-------------------------CHAT------------------------>
+       <div style=" position: fixed;right: 90px;   border-color:transparent;bottom: 0; z-index: 3000;width: 350px; height: auto; align-content: right; text-align: right;">
+            <button type="button" class="btn btn-lg btn-info collapsed" data-toggle="collapse" data-target="#chat_cliente" style="width: 350px;border-radius:10px;  outline:none; margin:0px; border-color:transparent;">Dejar un mensaje <i class="fa fa-comments" aria-hidden="true"></i></button>
+            <div id="chat_cliente" class="collapse" style="width:100%; border: 1px solid #398aa4; border-radius: 7px">
+                <div style="background-color: rgba(255,255,255,0.7); color: #444;">
+                    <div class="center">
+                        <br>
+                        <img src="images/chat.png" style="border-radius:25px;" />
+                    </div>
+                    <table style="text-align: justify; font-size: 12px; margin-left: 20px;">
+                        <tr>
+                            <td colspan="2" style="color:#000000 ">Para consultas y sugerencias, por favor ingrese sus datos personales y presione enviar. <br>Lo antes posible nuestro personal se comunicará con usted. <strong>Gracias por su mensaje</strong> <b class="text-success">CB Cooperativa LTDA.</b></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nombres:</strong></td>
+                            <td><input name="ms1" id="ms1" type="text" onkeypress="return soloLetras(event)" required style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email:</strong></td>
+                            <td><input name="ms2" id="ms2" type="email" required onkeypress="return soloCorreo(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tel&eacute;fono:</strong></td>
+                            <td><input name="ms3" id="ms3" type="tel" maxlength="10" onkeypress="return soloNumeros(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Direcci&oacute;n:</strong></td>
+                            <td><input name="ms4" id="ms4" type="text" required onkeypress="return soloValidos(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ciudad:</strong></td>
+                            <td><input name="ms5" id="ms5" type="text" required onkeypress="return soloLetras(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tema:</strong></td>
+                            <td><input name="ms6" id="ms6" type="text" required onkeypress="return soloLetras(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mensaje:</strong></td>
+                            <td><textarea name="ms7" id="ms7" rows="4" required onkeypress="return soloLetras(event)" style="background:#B4CCDE     ; color:#444;border:1px solid #2A608A "></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center"><input style="border-radius:10px;" class="btn zoom inputC" type="button" onclick="validarChat();" value="ENVIAR"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <br></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-------------------------//CHAT//------------------------>
+        <!-------------------------CARTILLA DE ACTUALIZACION------------------------>
+        <!--
+           <div style=" position: fixed;right: 302px;   border-color:transparent;bottom: 0px; z-index: 3000;width: 350px; height: auto; align-content: right; text-align: center;">
+            <button type="button" class="btn btn-lg btn-info collapsed" data-toggle="collapse" data-target="#cart_actual" style="width: 250px;border-radius:10px;  outline:none; margin:0px; border-color:transparent;background: #ffa251" onclick="window.location='cartilla_actualizacion.php'">Cartilla de Actualizacion <i class="fa fa-address-card" aria-hidden="true" ></i></button>            
+        </div>
+        -->
+        <!-------------------------//CARTILLA DE ACTUALIZACION//------------------------>
+
+        <!--REDES SOCIALES-->
+        <div class="sociales">
+        <ul>
+                     
+            <li>
+                <a href="https://www.facebook.com/cacpebiblian/?fref=ts" target="_blank" class="icon-facebook" title = "Facebook"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/cacpe_biblian?lang=es" target="_blank" class="icon-twitter" title = "Twitter"></a>
+            </li>
+            <li>
+                <a href="https://www.cosede.gob.ec/informacion-para-entidades-financieras/" target="_blank" class="icon-lock" style= 'background: #edb140' title = "Cosede"></a>
+            </li>            
+        </ul>
+        </div>
+        <!--/REDES SOCIALES/-->
+      
+     
+    <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = '../connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="950390831753046"
+  theme_color="#0084ff"
+  logged_in_greeting="¡Hola! como podemos ayudarte?"
+  logged_out_greeting="¡Hola! como podemos ayudarte?">
+</div>
+        <a href="http://bit.ly/2UhY0ID" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>  <title>CB Cooperativa | Abrir Cuenta</title>
+
+  <script src="js/comprobar.js" type="text/javascript"></script>
+  
+<script>
+    function active()
+    {
+        document.getElementById("liSerOnl").className = "dropdown active";
+        //document.getElementById("liSolCred").className = "active";
+        document.getElementById("liAbCuAq").className = "active";
+    }
+    function Refresh() {
+        setTimeout("refreshPage();", 2000);
+    }
+    function refreshPage() {
+        window.location.reload(true);
+    }
+
+    $(document).ready(function(){
+        $("#Submit").click(function(){
+            var valor=validar();
+            if (valor==true)
+            {
+                Refresh();
+            }
+        });
+    });
+</script>
+  <section class="title">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span6">
+          <h1>ABRA SU CUENTA AQUÍ</h1>
+        </div>
+
+    <div class="span6">
+                    <ul class="breadcrumb pull-right">
+                        <li><a href="index.html">Inicio</a> <span class="divider">/</span></li>
+                        <li class="active">Abrir Cuenta</li>
+                    </ul>
+            </div>
+      </div>
+    </div>
+  </section>
+  <!-- / .title "setTimeout('document.forms[0].reset()', 2000)-->
+
+  <!-- Career -->
+  <section id="career" class="container">
+      <div align="center">
+      <form method="post" name="form1" id="form1" action="http://www.cacpebiblian.fin.ec/generar.php" onsubmit="return validar()">
+
+<table align="center" border="0" style="font-size:14px; width:90%;">
+
+  <tr>
+    <td width="270" align="center"><img src="images/logotransparente.png" border="0"></td>
+    <td colspan="3" >
+    <div align="left" style="font-size:30px; font-weight:bold;">
+    FORMULARIO DE APERTURA DE CUENTA<br>
+    </div>
+    <b>
+    <span style="font-size:14px">
+    FECHA DE SOLICITUD:  2020-04-26    </span>
+    </b>
+    </td>
+  </tr>
+  <tr>
+      <td colspan="4"><br><span style="color:#f00;">Nota:</span> Por favor llene los datos del formulario actual, una ves terminado el ingreso, acepte la veracidad de la informaci&oacute;n y presione <b>< < ENVIAR SOLICITUD > ></b>. Los campos marcados con asterisco(<span style="color:#F00;">*</span>) son obligatorios</td>
+    </tr>
+
+  <tr>
+    <td><strong>1. DATOS DEL SOLICITANTE</strong> </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Nombres: <b style="color: red"> * </b></td>
+    <td><input placeholder="ej. Juan Carlos" name="c_1" type="text" id="c_1" size="30"/></td>
+    <td>Apellidos:<b style="color: red"> * </b></td>
+    <td><input placeholder="ej. Lopez Solorzano" name="c_2" class="" type="text"  id="c_2" size="30"/></td>
+  </tr>
+  <tr>
+    <td>Pais de Nacionalidad: </td>
+    <td width="257">
+  <select name="c_3" id="c_3" >
+  <option value="Ecuador" selected>Ecuador</option>
+
+  <option value='Afghanistan' >Afghanistan</option><option value='Aland Islands' >Aland Islands</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Anguilla' >Anguilla</option><option value='Antarctica' >Antarctica</option><option value='Antigua And Barbuda' >Antigua And Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Aruba' >Aruba</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bosnia And Herzegovina' >Bosnia And Herzegovina</option><option value='Botswana' >Botswana</option><option value='Bouvet Island' >Bouvet Island</option><option value='Brazil' >Brazil</option><option value='British Indian Ocean Territory' >British Indian Ocean Territory</option><option value='Brunei Darussalam' >Brunei Darussalam</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cape Verde' >Cape Verde</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Christmas Island' >Christmas Island</option><option value='Cocos (Keeling) Islands' >Cocos (Keeling) Islands</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo' >Congo</option><option value='Congo, Democratic Republic' >Congo, Democratic Republic</option><option value='Cook Islands' >Cook Islands</option><option value='Costa Rica' >Costa Rica</option><option value='Cote D'Ivoire' >Cote D'Ivoire</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Cyprus' >Cyprus</option><option value='Czech Republic' >Czech Republic</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Ethiopia' >Ethiopia</option><option value='Falkland Islands (Malvinas)' >Falkland Islands (Malvinas)</option><option value='Faroe Islands' >Faroe Islands</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Guiana' >French Guiana</option><option value='French Polynesia' >French Polynesia</option><option value='French Southern Territories' >French Southern Territories</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Gibraltar' >Gibraltar</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guadeloupe' >Guadeloupe</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guernsey' >Guernsey</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Heard Island & Mcdonald Islands' >Heard Island & Mcdonald Islands</option><option value='Holy See (Vatican City State)' >Holy See (Vatican City State)</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran, Islamic Republic Of' >Iran, Islamic Republic Of</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Isle Of Man' >Isle Of Man</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jersey' >Jersey</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='Korea' >Korea</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Lao People's Democratic Republic' >Lao People's Democratic Republic</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libyan Arab Jamahiriya' >Libyan Arab Jamahiriya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macao' >Macao</option><option value='Macedonia' >Macedonia</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Martinique' >Martinique</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mayotte' >Mayotte</option><option value='Mexico' >Mexico</option><option value='Micronesia, Federated States Of' >Micronesia, Federated States Of</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Montserrat' >Montserrat</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='Netherlands Antilles' >Netherlands Antilles</option><option value='New Caledonia' >New Caledonia</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Niue' >Niue</option><option value='Norfolk Island' >Norfolk Island</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestinian Territory, Occupied' >Palestinian Territory, Occupied</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Pitcairn' >Pitcairn</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Reunion' >Reunion</option><option value='Romania' >Romania</option><option value='Russian Federation' >Russian Federation</option><option value='Rwanda' >Rwanda</option><option value='Saint Barthelemy' >Saint Barthelemy</option><option value='Saint Helena' >Saint Helena</option><option value='Saint Kitts And Nevis' >Saint Kitts And Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Martin' >Saint Martin</option><option value='Saint Pierre And Miquelon' >Saint Pierre And Miquelon</option><option value='Saint Vincent And Grenadines' >Saint Vincent And Grenadines</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome And Principe' >Sao Tome And Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia' >Serbia</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='South Georgia And Sandwich Isl.' >South Georgia And Sandwich Isl.</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Suriname' >Suriname</option><option value='Svalbard And Jan Mayen' >Svalbard And Jan Mayen</option><option value='Swaziland' >Swaziland</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syrian Arab Republic' >Syrian Arab Republic</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania' >Tanzania</option><option value='Thailand' >Thailand</option><option value='Timor-Leste' >Timor-Leste</option><option value='Togo' >Togo</option><option value='Tokelau' >Tokelau</option><option value='Tonga' >Tonga</option><option value='Trinidad And Tobago' >Trinidad And Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkey' >Turkey</option><option value='Turkmenistan' >Turkmenistan</option><option value='Turks And Caicos Islands' >Turks And Caicos Islands</option><option value='Tuvalu' >Tuvalu</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='United Kingdom' >United Kingdom</option><option value='United States' >United States</option><option value='United States Outlying Islands' >United States Outlying Islands</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Venezuela' >Venezuela</option><option value='Viet Nam' >Viet Nam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Wallis And Futuna' >Wallis And Futuna</option><option value='Western Sahara' >Western Sahara</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option>    </select>    </td>
+    <td width="137"><p>
+      <label></label>
+      <br>
+    </p></td>
+    <td width="360">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Fecha Nacimiento: </td>
+    <td><input name="c_4" type="date" class="fecha"  id="c_4" size="30"   /></td>
+    <td>C&eacute;dula/Pasaporte: <b style="color: red"> * </b></td>
+    <td><input name="c_5" class="number " type="text"  id="c_5"/></td>
+  </tr>
+  <tr>
+    <td>Instruccion:</td>
+    <td><select name="c_6" id="c_6" >
+      <option value="Primaria" selected>Primaria</option>
+      <option value="Secundaria">Secundaria</option>
+      <option value="Segundo Nivel">Segundo Nivel</option>
+      <option value="Universitario">Universitario</option>
+      <option value="Posgrado">Posgrado</option>
+      <option value="PHD">PHD</option>
+            </select></td>
+    <td>Certificado de Votaci&oacute;n: </td>
+    <td><input name="c_7" type="text" class=""  id="c_7" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Genero:</td>
+    <td><select name="c_8" id="c_8" >
+      <option value="Masculino" selected>Masculino</option>
+      <option value="Femenino">Femenino</option>
+
+    </select></td>
+    <td>Profesion:</td>
+    <td><input placeholder="ej. Doctor" name="c_9" type="text"  id="c_9" size="20"/></td>
+  </tr>
+
+  <tr>
+    <td>Domicilio: <b style="color: red"> * </b></td>
+    <td><input placeholder="ej. Av. 3 de Noviembre" name="c_10" type="text"  id="c_10" size="35"/></td>
+    <td>Barrio/Sector:</td>
+    <td><input name="c_11" type="text"  id="c_11" size="20"/></td>
+  </tr>
+  <tr>
+    <td>Telefono Domicilio: <b style="color: red"> * </b></td>
+    <td><input name="c_12" type="text" class="digits"  id="c_12"/></td>
+    <td>Tiempo Residencia (a&ntilde;os): </td>
+    <td><input name="c_13" type="number" id="c_13" value="0" min="0" max="50"></td>
+  </tr>
+  <tr>
+    <td>Referencia:</td>
+    <td><input name="c_14" type="text"  id="c_14" size="35"   /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Tipo Residencia: </td>
+    <td><select name="c_15" id="c_15" >
+      <option value="Propio" selected>Propio</option>
+      <option value="Parientes">Parientes</option>
+      <option value="Arrendado">Arrendado</option>
+            </select></td>
+    <td>Nombre Familiar/Arrendatario: </td>
+    <td><input name="c_16" type="text"  id="c_16" size="35"   /></td>
+  </tr>
+
+  <tr>
+    <td>Estado Civil: </td>
+    <td><select name="c_17" id="c_17" >
+      <option value="Soltero" selected>Soltero</option>
+      <option value="Uni&oacute;n de Hecho">Uni&oacute;n de Hecho</option>
+      <option value="Casado">Casado</option>
+      <option value="Divorsiado">Divorsiado</option>
+      <option value="Viudo">Viudo</option>
+            </select></td>
+    <td>Cargas Familiares: </td>
+    <td><input name="c_18" type="number" id="c_18" value="0" min="0" max="50"></td>
+  </tr>
+  <tr>
+    <td>Nombre Conyugue: </td>
+    <td><input name="c_19" type="text"  id="c_19" size="35"   /></td>
+    <td>C&eacute;dula:</td>
+    <td><input name="c_20" type="text" class="number"  id="c_20" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Direcci&oacute;n:</td>
+    <td><input name="c_21" type="text"  id="c_21" size="35"   /></td>
+    <td>Actividad:</td>
+    <td><input name="c_22" type="text"  id="c_22" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>2. ACTIVIDAD ECONOMICA</strong> </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Nombre Instituci&oacute;n/Negocio:</td>
+    <td><input name="c_23" type="text"  id="c_23" size="35"   /></td>
+    <td>Cargo:</td>
+    <td><input name="c_24" type="text"  id="c_24" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Actividad Instituci&oacute;n/Negocio:</td>
+    <td><input name="c_25" type="text"  id="c_25" size="20"   /></td>
+    <td>Tiempo:</td>
+    <td><input name="c_26" type="number" id="c_26" value="0" min="0" max="50"></td>
+  </tr>
+  <tr>
+    <td>Direcccion Instituci&oacute;n/Negocio:</td>
+    <td><input name="c_27" type="text"  id="c_27" size="35"   /></td>
+    <td>Telf. trabajo: </td>
+    <td><input name="c_28" type="text" class="digits"  id="c_28" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Situacion Laboral: </td>
+    <td><select name="c_29" id="c_29">
+      <option value="Independiente" selected>Independiente</option>
+      <option value="Empleado">Empleado</option>
+      <option value="Jubilado">Jubilado</option>
+      <option value="No Trabaja">No Trabaja</option>
+            </select></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><strong>REPRESENTANTE</strong></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Nombres: </td>
+    <td colspan="2"><input name="c_30" type="text"  id="c_30" size="60"  /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Nacionalidad:</td>
+    <td><select name="c_31" id="c_31">
+      <option value="Ecuador" selected>Ecuador</option>
+      <option value='Afghanistan' >Afghanistan</option><option value='Aland Islands' >Aland Islands</option><option value='Albania' >Albania</option><option value='Algeria' >Algeria</option><option value='American Samoa' >American Samoa</option><option value='Andorra' >Andorra</option><option value='Angola' >Angola</option><option value='Anguilla' >Anguilla</option><option value='Antarctica' >Antarctica</option><option value='Antigua And Barbuda' >Antigua And Barbuda</option><option value='Argentina' >Argentina</option><option value='Armenia' >Armenia</option><option value='Aruba' >Aruba</option><option value='Australia' >Australia</option><option value='Austria' >Austria</option><option value='Azerbaijan' >Azerbaijan</option><option value='Bahamas' >Bahamas</option><option value='Bahrain' >Bahrain</option><option value='Bangladesh' >Bangladesh</option><option value='Barbados' >Barbados</option><option value='Belarus' >Belarus</option><option value='Belgium' >Belgium</option><option value='Belize' >Belize</option><option value='Benin' >Benin</option><option value='Bermuda' >Bermuda</option><option value='Bhutan' >Bhutan</option><option value='Bolivia' >Bolivia</option><option value='Bosnia And Herzegovina' >Bosnia And Herzegovina</option><option value='Botswana' >Botswana</option><option value='Bouvet Island' >Bouvet Island</option><option value='Brazil' >Brazil</option><option value='British Indian Ocean Territory' >British Indian Ocean Territory</option><option value='Brunei Darussalam' >Brunei Darussalam</option><option value='Bulgaria' >Bulgaria</option><option value='Burkina Faso' >Burkina Faso</option><option value='Burundi' >Burundi</option><option value='Cambodia' >Cambodia</option><option value='Cameroon' >Cameroon</option><option value='Canada' >Canada</option><option value='Cape Verde' >Cape Verde</option><option value='Cayman Islands' >Cayman Islands</option><option value='Central African Republic' >Central African Republic</option><option value='Chad' >Chad</option><option value='Chile' >Chile</option><option value='China' >China</option><option value='Christmas Island' >Christmas Island</option><option value='Cocos (Keeling) Islands' >Cocos (Keeling) Islands</option><option value='Colombia' >Colombia</option><option value='Comoros' >Comoros</option><option value='Congo' >Congo</option><option value='Congo, Democratic Republic' >Congo, Democratic Republic</option><option value='Cook Islands' >Cook Islands</option><option value='Costa Rica' >Costa Rica</option><option value='Cote D'Ivoire' >Cote D'Ivoire</option><option value='Croatia' >Croatia</option><option value='Cuba' >Cuba</option><option value='Cyprus' >Cyprus</option><option value='Czech Republic' >Czech Republic</option><option value='Denmark' >Denmark</option><option value='Djibouti' >Djibouti</option><option value='Dominica' >Dominica</option><option value='Dominican Republic' >Dominican Republic</option><option value='Ecuador' >Ecuador</option><option value='Egypt' >Egypt</option><option value='El Salvador' >El Salvador</option><option value='Equatorial Guinea' >Equatorial Guinea</option><option value='Eritrea' >Eritrea</option><option value='Estonia' >Estonia</option><option value='Ethiopia' >Ethiopia</option><option value='Falkland Islands (Malvinas)' >Falkland Islands (Malvinas)</option><option value='Faroe Islands' >Faroe Islands</option><option value='Fiji' >Fiji</option><option value='Finland' >Finland</option><option value='France' >France</option><option value='French Guiana' >French Guiana</option><option value='French Polynesia' >French Polynesia</option><option value='French Southern Territories' >French Southern Territories</option><option value='Gabon' >Gabon</option><option value='Gambia' >Gambia</option><option value='Georgia' >Georgia</option><option value='Germany' >Germany</option><option value='Ghana' >Ghana</option><option value='Gibraltar' >Gibraltar</option><option value='Greece' >Greece</option><option value='Greenland' >Greenland</option><option value='Grenada' >Grenada</option><option value='Guadeloupe' >Guadeloupe</option><option value='Guam' >Guam</option><option value='Guatemala' >Guatemala</option><option value='Guernsey' >Guernsey</option><option value='Guinea' >Guinea</option><option value='Guinea-Bissau' >Guinea-Bissau</option><option value='Guyana' >Guyana</option><option value='Haiti' >Haiti</option><option value='Heard Island & Mcdonald Islands' >Heard Island & Mcdonald Islands</option><option value='Holy See (Vatican City State)' >Holy See (Vatican City State)</option><option value='Honduras' >Honduras</option><option value='Hong Kong' >Hong Kong</option><option value='Hungary' >Hungary</option><option value='Iceland' >Iceland</option><option value='India' >India</option><option value='Indonesia' >Indonesia</option><option value='Iran, Islamic Republic Of' >Iran, Islamic Republic Of</option><option value='Iraq' >Iraq</option><option value='Ireland' >Ireland</option><option value='Isle Of Man' >Isle Of Man</option><option value='Israel' >Israel</option><option value='Italy' >Italy</option><option value='Jamaica' >Jamaica</option><option value='Japan' >Japan</option><option value='Jersey' >Jersey</option><option value='Jordan' >Jordan</option><option value='Kazakhstan' >Kazakhstan</option><option value='Kenya' >Kenya</option><option value='Kiribati' >Kiribati</option><option value='Korea' >Korea</option><option value='Kuwait' >Kuwait</option><option value='Kyrgyzstan' >Kyrgyzstan</option><option value='Lao People's Democratic Republic' >Lao People's Democratic Republic</option><option value='Latvia' >Latvia</option><option value='Lebanon' >Lebanon</option><option value='Lesotho' >Lesotho</option><option value='Liberia' >Liberia</option><option value='Libyan Arab Jamahiriya' >Libyan Arab Jamahiriya</option><option value='Liechtenstein' >Liechtenstein</option><option value='Lithuania' >Lithuania</option><option value='Luxembourg' >Luxembourg</option><option value='Macao' >Macao</option><option value='Macedonia' >Macedonia</option><option value='Madagascar' >Madagascar</option><option value='Malawi' >Malawi</option><option value='Malaysia' >Malaysia</option><option value='Maldives' >Maldives</option><option value='Mali' >Mali</option><option value='Malta' >Malta</option><option value='Marshall Islands' >Marshall Islands</option><option value='Martinique' >Martinique</option><option value='Mauritania' >Mauritania</option><option value='Mauritius' >Mauritius</option><option value='Mayotte' >Mayotte</option><option value='Mexico' >Mexico</option><option value='Micronesia, Federated States Of' >Micronesia, Federated States Of</option><option value='Moldova' >Moldova</option><option value='Monaco' >Monaco</option><option value='Mongolia' >Mongolia</option><option value='Montenegro' >Montenegro</option><option value='Montserrat' >Montserrat</option><option value='Morocco' >Morocco</option><option value='Mozambique' >Mozambique</option><option value='Myanmar' >Myanmar</option><option value='Namibia' >Namibia</option><option value='Nauru' >Nauru</option><option value='Nepal' >Nepal</option><option value='Netherlands' >Netherlands</option><option value='Netherlands Antilles' >Netherlands Antilles</option><option value='New Caledonia' >New Caledonia</option><option value='New Zealand' >New Zealand</option><option value='Nicaragua' >Nicaragua</option><option value='Niger' >Niger</option><option value='Nigeria' >Nigeria</option><option value='Niue' >Niue</option><option value='Norfolk Island' >Norfolk Island</option><option value='Northern Mariana Islands' >Northern Mariana Islands</option><option value='Norway' >Norway</option><option value='Oman' >Oman</option><option value='Pakistan' >Pakistan</option><option value='Palau' >Palau</option><option value='Palestinian Territory, Occupied' >Palestinian Territory, Occupied</option><option value='Panama' >Panama</option><option value='Papua New Guinea' >Papua New Guinea</option><option value='Paraguay' >Paraguay</option><option value='Peru' >Peru</option><option value='Philippines' >Philippines</option><option value='Pitcairn' >Pitcairn</option><option value='Poland' >Poland</option><option value='Portugal' >Portugal</option><option value='Puerto Rico' >Puerto Rico</option><option value='Qatar' >Qatar</option><option value='Reunion' >Reunion</option><option value='Romania' >Romania</option><option value='Russian Federation' >Russian Federation</option><option value='Rwanda' >Rwanda</option><option value='Saint Barthelemy' >Saint Barthelemy</option><option value='Saint Helena' >Saint Helena</option><option value='Saint Kitts And Nevis' >Saint Kitts And Nevis</option><option value='Saint Lucia' >Saint Lucia</option><option value='Saint Martin' >Saint Martin</option><option value='Saint Pierre And Miquelon' >Saint Pierre And Miquelon</option><option value='Saint Vincent And Grenadines' >Saint Vincent And Grenadines</option><option value='Samoa' >Samoa</option><option value='San Marino' >San Marino</option><option value='Sao Tome And Principe' >Sao Tome And Principe</option><option value='Saudi Arabia' >Saudi Arabia</option><option value='Senegal' >Senegal</option><option value='Serbia' >Serbia</option><option value='Seychelles' >Seychelles</option><option value='Sierra Leone' >Sierra Leone</option><option value='Singapore' >Singapore</option><option value='Slovakia' >Slovakia</option><option value='Slovenia' >Slovenia</option><option value='Solomon Islands' >Solomon Islands</option><option value='Somalia' >Somalia</option><option value='South Africa' >South Africa</option><option value='South Georgia And Sandwich Isl.' >South Georgia And Sandwich Isl.</option><option value='Spain' >Spain</option><option value='Sri Lanka' >Sri Lanka</option><option value='Sudan' >Sudan</option><option value='Suriname' >Suriname</option><option value='Svalbard And Jan Mayen' >Svalbard And Jan Mayen</option><option value='Swaziland' >Swaziland</option><option value='Sweden' >Sweden</option><option value='Switzerland' >Switzerland</option><option value='Syrian Arab Republic' >Syrian Arab Republic</option><option value='Taiwan' >Taiwan</option><option value='Tajikistan' >Tajikistan</option><option value='Tanzania' >Tanzania</option><option value='Thailand' >Thailand</option><option value='Timor-Leste' >Timor-Leste</option><option value='Togo' >Togo</option><option value='Tokelau' >Tokelau</option><option value='Tonga' >Tonga</option><option value='Trinidad And Tobago' >Trinidad And Tobago</option><option value='Tunisia' >Tunisia</option><option value='Turkey' >Turkey</option><option value='Turkmenistan' >Turkmenistan</option><option value='Turks And Caicos Islands' >Turks And Caicos Islands</option><option value='Tuvalu' >Tuvalu</option><option value='Uganda' >Uganda</option><option value='Ukraine' >Ukraine</option><option value='United Arab Emirates' >United Arab Emirates</option><option value='United Kingdom' >United Kingdom</option><option value='United States' >United States</option><option value='United States Outlying Islands' >United States Outlying Islands</option><option value='Uruguay' >Uruguay</option><option value='Uzbekistan' >Uzbekistan</option><option value='Vanuatu' >Vanuatu</option><option value='Venezuela' >Venezuela</option><option value='Viet Nam' >Viet Nam</option><option value='Virgin Islands, British' >Virgin Islands, British</option><option value='Virgin Islands, U.S.' >Virgin Islands, U.S.</option><option value='Wallis And Futuna' >Wallis And Futuna</option><option value='Western Sahara' >Western Sahara</option><option value='Yemen' >Yemen</option><option value='Zambia' >Zambia</option><option value='Zimbabwe' >Zimbabwe</option>    </select></td>
+    <td>C&eacute;dula/Pasaporte:</td>
+    <td><input name="c_32" type="text" class="digits"  id="c_32" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Lugar/Fecha Nacimiento:</td>
+    <td><input name="c_33" type="date" class="fecha"  id="c_33" size="20"   /></td>
+    <td>Certificado de Votaci&oacute;n:</td>
+    <td><input name="c_34" type="text"  id="c_34" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Estado Civil: </td>
+    <td><select name="c_35" id="c_35">
+      <option value="Soltero" selected>Soltero</option>
+      <option value="Uni&oacute;n de Hecho">Uni&oacute;n de Hecho</option>
+      <option value="Casado">Casado</option>
+      <option value="Divorsiado">Divorsiado</option>
+      <option value="Viudo">Viudo</option>
+    </select></td>
+    <td>Cargas Familiares: </td>
+    <td><input name="c_36" type="number" id="c_36" value="0" min="0" max="50"></td>
+  </tr>
+  <tr>
+    <td>Instruccion:</td>
+    <td><select name="c_37" id="c_37">
+      <option value="Primaria" selected>Primaria</option>
+      <option value="Secundaria">Secundaria</option>
+      <option value="Segundo Nivel">Segundo Nivel</option>
+      <option value="Universitario">Universitario</option>
+      <option value="Posgrado">Posgrado</option>
+      <option value="PHD">PHD</option>
+    </select></td>
+    <td>Telf. domicilio: </td>
+    <td><input name="c_38" type="text"  class="digits" id="c_38" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>Domicilio:</td>
+    <td colspan="2"><input name="c_39" type="text"  id="c_39" size="60"  /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Lugar Referencia: </td>
+    <td><input name="c_40" type="text"  id="c_40" size="35"   /></td>
+    <td>Tiempo Residencia: </td>
+    <td><input name="c_41" type="number" id="c_41" value="0" min="0" max="50"></td>
+  </tr>
+  <tr>
+    <td>Tipo Residencia: </td>
+    <td><select name="c_42" id="c_42">
+      <option value="Propio" selected>Propio</option>
+      <option value="Parientes">Parientes</option>
+      <option value="Arrendado">Arrendado</option>
+    </select></td>
+    <td>Nombre Familiar/Arrendatario: </td>
+    <td><input name="c_43" type="text"  id="c_43" size="35"   /></td>
+  </tr>
+  <tr>
+    <td>Lugar Trabajo y Actividad:</td>
+    <td><input name="c_44" type="text"  id="c_44" size="35"   /></td>
+    <td>Tlf.Trabajo:</td>
+    <td><input name="c_45" type="text" class="digits"  id="c_45" size="20"   /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td><strong>3. POSICION FINANCIERA</strong></td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td colspan="4"><table class="table table-striped" width="100%"  border="0" cellspacing="0" grid="gridlayout" style='border-width:thin; border-collapse: collapse; font-size:12px;'>
+
+      <tr class="success">
+
+        <td colspan="2" width="25%" align="center" class="bordetotal" ><strong>INGRESOS</strong></td>
+
+        <td colspan="2" width="25%" align="center" class="bordetotal" ><strong>GASTOS</strong></td>
+
+        <td colspan="2" width="25%" align="center" class="bordetotal" ><strong>ACTIVOS</strong></td>
+
+        <td colspan="2" width="25%" align="center" class="bordetotal" ><strong>PASIVOS</strong></td>
+        </tr>
+
+      <tr>
+
+        <td width="15%">SUELDOS
+
+          <br>
+
+        <br></td>
+
+        <td width="10%"><input class="form-control" name="c_46" type="text" class="moneda"  id="c_46" style="width: 100%" value="0.00"    /></td>
+
+        <td width="15%">ALIMENTACION</td>
+
+        <td width="10%" class="bordetotal" ><input class="form-control" class="moneda" name="c_47" type="text"  id="c_47" style="width:100%;" value="0.00"/></td>
+
+        <td width="15%">CASA<br></td>
+
+        <td width="10%" class="bordetotal" ><input class="form-control" class="moneda" name="c_48" type="text"  id="c_48" style="width:100%;"  value="0.00" /></td>
+
+        <td width="15%">DEUDAS EN INST. FINANC.<br></td>
+
+        <td width="10%" class="bordetotal" ><input class="form-control" class="moneda" name="c_49" type="text"  id="c_49" style="width:auto;" value="0.00"  /></td>
+      </tr>
+
+      <tr>
+
+        <td>INT. INVERSIONES</td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_50" type="text" class="moneda"  id="c_50" style="width:100%;" value="0.00"    /></td>
+
+        <td>ARRIENDOS<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_51" type="text"  id="c_51" style="width:100%;" value="0.00"   /></td>
+
+        <td>TERRENO<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_52" type="text"  id="c_52" style="width:100%;" value="0.00"   /></td>
+
+        <td style="max-width: 5px;">CUENTAS POR PAGAR<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_53" type="text"  id="c_53" style="width:auto;" value="0.00"   /></td>
+      </tr>
+
+      <tr>
+
+        <td>UTILIDADES NEGOCIOS</td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_54" type="text" class="moneda"  id="c_54" style="width:100%;" value="0.00"    /></td>
+
+        <td>PAGO DEUDAS<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_55" type="text"  id="c_55" style="width:100%;" value="0.00"   /></td>
+
+        <td>VEHICULOS<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_56" type="text"  id="c_56" style="width:100%;" value="0.00"   /></td>
+
+        <td>PROPIEDADES HIPOTECADAS<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_57" type="text"  id="c_57" style="width:auto;" value="0.00"   /></td>
+      </tr>
+
+      <tr>
+
+        <td>AYUDAS FAMILIARES</td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_58" type="text" class="moneda"  id="c_58" style="width:100%;" value="0.00"    /></td>
+
+        <td>AHORRO COOPERATIVA<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_59" type="text"  id="c_59" style="width:100%;" value="0.00"   /></td>
+
+        <td>MAQUINARIA O MERCADERIA<br></td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_60" type="text"  id="c_60" style="width:100%;" value="0.00"   /></td>
+
+        <td>OTROS PASIVOS</td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_61" type="text"  id="c_61" style="width:auto;" value="0.00"   /></td>
+      </tr>
+
+      <tr>
+
+        <td>OTROS INGRESOS</td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_62" type="text"  id="c_62" style="width:100%;" value="0.00"   /></td>
+
+        <td>OTROS GASTOS</td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_63" type="text"  id="c_63" style="width:100%;" value="0.00"   /></td>
+
+        <td>OTROS ACTIVOS</td>
+
+        <td class="bordetotal" ><input class="form-control" class="moneda" name="c_64" type="text"  id="c_64" style="width:100%;" value="0.00"   /></td>
+
+        <td>REMESAS</td>
+
+        <td  class="bordetotal" ><input class="form-control" name="c_65" class="moneda" type="text"  id="c_65" style="width:auto;" value="0.00"   /></td>
+      </tr>
+
+      <tr>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+
+        <td>&nbsp;</td>
+      </tr>
+
+    </table ></td>
+    </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td><strong>4. REFERENCIAS:</strong></td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td colspan="4"><table class="table table-striped" width="100%" cellspacing="0" style=' border-width:thin; border-collapse: collapse;font-size:11px;'>
+
+      <tr class="success">
+
+        <td colspan="3" align="center" class="bordetotal" ><strong>BANCARIAS</strong></td>
+
+        <td colspan="3" align="center" class="bordetotal" ><strong>COMERCIALES</strong></td>
+        </tr>
+
+      <tr>
+
+        <td width="10%" class="bordetotal" ><div align="center"><strong>TIPO CUENTA </strong></div></td>
+
+        <td width="30%" class="bordetotal" ><div align="center"><strong>BANCO / COOPERATIVA </strong></div></td>
+
+        <td width="10%" class="bordetotal" ><div align="center"><strong>No. Cuenta </strong></div></td>
+
+        <td width="25%" class="bordetotal" ><div align="center"><strong>EMPRESA/NOMBRE(Parientes)</strong></div></td>
+
+        <td width="15%" class="bordetotal" ><div align="center"><strong>No. CEDULA</strong></div></td>
+
+        <td width="10%" class="bordetotal" ><div align="center"><strong>TEL&Eacute;FONO</strong></div></td>
+      </tr>
+
+      <tr>
+
+        <td class="bordetotal" ><select class="form input-sm" name="c_66" id="c_66">
+
+          <option value="Ahorros" selected>Ahorros</option>
+
+          <option value="Corriente">Corriente</option>
+
+          <option value="Inversion">Inversion</option>
+
+        </select>        </td>
+
+        <td class="bordetotal" ><input class="form input-sm" name="c_67" type="text"  id="c_67" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_68" class="digits" type="text"  id="c_68" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_69" type="text"  id="c_69" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_70" type="text" class="digits"  id="c_70" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form input-sm" name="c_71" type="text" class="digits"  id="c_71" style="width:90%;"    /></td>
+      </tr>
+
+      <tr>
+
+        <td class="bordetotal" ><select class="form input-sm" name="c_72" id="c_72">
+
+          <option value="Ahorros" selected>Ahorros</option>
+
+          <option value="Corriente">Corriente</option>
+
+          <option value="Inversion">Inversion</option>
+
+        </select></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_73" type="text"  id="c_73" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_74" type="text" class="digits"  id="c_74" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_75" type="text"  id="c_75" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_76" type="text" class="digits"  id="c_76" style="width:90%;"    /></td>
+
+        <td class="bordetotal" ><input class="form-control" name="c_77" type="text" class="digits"  id="c_77" style="width:90%;"    /></td>
+      </tr>
+
+
+
+    </table>
+
+
+
+    <p></p>
+
+
+
+    <table class="table table-striped" border="0" align="center" cellspacing="12" style="font-size:12px;width:70%;">
+
+
+
+      <tr class="success">
+
+        <td colspan="6"><div align="center"><strong>PERSONALES</strong></div></td>
+        </tr>
+
+      <tr>
+
+        <td  ><div align="center"><strong>IDENTIFICACI&Oacute;N</strong></div></td>
+
+        <td  ><div align="center"><strong>NOMBRE</strong></div></td>
+
+        <td  ><div align="center"><strong>TEL&Eacute;FONO</strong></div></td>
+      </tr>
+
+      <tr>
+
+        <td ><input class="form" class="digits" name="c_78" type="text"  id="c_78" style="width:90%;"    /></td>
+
+        <td  ><input class="form-control" name="c_79" type="text"  id="c_79" style="width:90%;"    /></td>
+
+        <td ><input class="form-control" class="digits" name="c_80" type="text"  id="c_80" style="width:90%;"    /></td>
+      </tr>
+
+      <tr >
+
+        <td ><input class="form-control" class="digits" name="c_81" type="text"  id="c_81" style="width:90%;"    /></td>
+
+        <td  ><input class="form-control" name="c_82" type="text"  id="c_82" style="width:90%;"    /></td>
+
+        <td ><input class="form-control" class="digits" name="c_83" type="text"  id="c_83" style="width:90%;"    /></td>
+      </tr>
+    </table></td>
+    </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+  </tr>
+
+  <tr>
+
+    <td><div align="right">
+      <input width="100px"
+height="100px" name="c_84" type="checkbox" id="c_84" value="checkbox" onchange="comprobar(this)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    </div></td >
+
+      <td  colspan="6">DECLARO QUE LA INFORMACION INGRESADA ANTERIORMENTE ES VERDADERA Y AUTORIZO A <b>CB COOPERATIVA</b> EL USO DE ESTA INFORMACI&Oacute;N.</td>
+    </tr>
+
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td colspan="3">&nbsp;</td>
+  </tr>
+
+
+  <tr>
+    <td colspan="4" ><div align="center">
+         <input type="submit" name="Submit" id="Submit" class="btn btn-success" value="ENVIAR MI SOLICITUD" disabled/>
+        </div>
+    </tr>
+</table>
+</form>
+      </div>
+</section>
+<!-- /Career -->
+
+
+      <div id="pie" style="display:none"></div>
+  
+
+    <script src="js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+<!-- Mirrored from www.cacpebiblian.fin.ec/abrircuenta.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Apr 2020 23:06:35 GMT -->
+</html>

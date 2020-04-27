@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cacpebiblian.fin.ec	TRUE	/	FALSE	1999999999	PHPSESSID	qeumf4g9l792mdo2sul45bq123
+
